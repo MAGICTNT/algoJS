@@ -2,9 +2,9 @@
 
 function bublleSort(array)
 {
-    for (let i = 1; array.lenght; i++)
+    for (let i = 1; array.length; i++)
     {
-        for (let j = 1; array.lenght; j++)
+        for (let j = 1; array.length; j++)
         {
             if (array[j] > array[j + 1]) //? je vairifie que le premier chiffre et superieur au secone et si il l'es
             {
@@ -20,9 +20,9 @@ console.log(bublleSort([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 
 ?   version optimiser 
 *function bublleSort(array)
 *{
-*    for (let i = 1; array.lenght -1; i++)
+*    for (let i = 1; array.length -1; i++)
 *    {
-*        for (let j = 1; array.lenght -1 -1; j++)
+*        for (let j = 1; array.length -1 -1; j++)
 *        {
 *            if (array[j] > array[j + 1])
 *            {
