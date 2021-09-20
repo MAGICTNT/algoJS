@@ -3,7 +3,7 @@
 function selectionSort(array)
 {
     
-    //?  version optimiser ->  for (let i = 0; i < array.length -1; i++) le -1 permet de limiter les tour inutil
+    //?  version optimisée ->  for (let i = 0; i < array.length -1; i++) le -1 permet de limiter les tours inutiles
     for (let i = 0; i < array.length; i++)
     {
         let min = i;
