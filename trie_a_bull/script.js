@@ -1,4 +1,4 @@
-//* le trie a bull fait un tour de bloucle et comparte chaque ellement a son voisin et si le voisin et plu petit il est intervertie 
+//* La trie à Bull fait un tour de boucle et comparse chacun tellement a son voisin et si le voisin et plu petit il est interverti
 
 function bublleSort(array)
 {
@@ -6,10 +6,10 @@ function bublleSort(array)
     {
         for (let j = 0; j < array.length; j++)
         {
-            if (array[j] > array[j + 1]) //? je vairifie que le premier chiffre et superieur au secone et si il l'es
+            if (array[j] > array[j + 1]) //? je vérifie que le premier chiffre est supérieur aux secondes et se les
             {
                 // console.log('valeur avant: ' + array[j]);    
-                [array[j], array[j + 1]] = [array[j + 1], array[j]] //? j'intervertie le chiffre entre eux
+                [array[j], array[j + 1]] = [array[j + 1], array[j]] //? j'intervertit les chiffres entre eux
                 // console.log('valeur apres: ' + array[j]);
             }
         }
@@ -29,8 +29,8 @@ console.log(bublleSort([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 
 *        {
 *            if (array[j] > array[j + 1])
 *            {
-*                //? je vairifie que le premier chiffre et superieur au secone et si il l'es
-*                [array[j], (array[j + 1] = array[j + 1]), array[j]]; //? j'intervertie le chiffre entre eux
+*                //? je vérifie que le premier chiffre est supérieur aux secondes et se les
+*                [array[j], (array[j + 1] = array[j + 1]), array[j]]; //? j'intervertit les chiffres entre eux
 *            }
 *        }
 *    }
